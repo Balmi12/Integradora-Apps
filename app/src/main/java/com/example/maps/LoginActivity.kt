@@ -78,7 +78,7 @@ class LoginActivity : AppCompatActivity() {
                     // Crear un intent para abrir P8RealtimeDatabase
 
                     // ----------------------NOTA DE BALMI: EN ESTA SECCIO SE DEBERIA CAMBIAR AL MAIN-------------------------
-                    val intent = Intent(this, P8RealtimeDatabaseActivity::class.java)
+                    val intent = Intent(this, MainActivity::class.java)
 
                     //Coonfigurar el Intent para que cierre la actividad actual y evitar regresar a ella
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
